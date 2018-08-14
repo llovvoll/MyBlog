@@ -58,9 +58,9 @@ reCaptcha:
   secret                 : "WmnJLYl+kH4WnApZ58c7hIMxq7WJzUudsKLqjwRMXOKwnGVA7IC44p2q7mzBs/wQweQfTmoiTp1mmv+wkhsaFTKrLMd60ypo5E3C+xzi3tAnOVS/1ybMRPj5FV02+7Zn+aohRMe3wD8GBf3X1Iwem/e+tdigSXrUs0Txq4Ps9VY="
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
