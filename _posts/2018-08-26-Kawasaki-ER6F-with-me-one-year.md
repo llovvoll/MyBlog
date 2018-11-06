@@ -7,7 +7,7 @@ header:
 categories:
   - SuperBike
   - Talks
-Tags:
+tags:
   - Kawasaki
   - ER-6F
 ---
