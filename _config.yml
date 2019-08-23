@@ -59,10 +59,10 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+  endpoint               : https://staticman3.herokuapp.com/v3/entry/github/ # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                : "6LdzxmkUAAAAADSjJIGlM5JUiyPV3An1nNZvdrP6"
-  secret                 : "WmnJLYl+kH4WnApZ58c7hIMxq7WJzUudsKLqjwRMXOKwnGVA7IC44p2q7mzBs/wQweQfTmoiTp1mmv+wkhsaFTKrLMd60ypo5E3C+xzi3tAnOVS/1ybMRPj5FV02+7Zn+aohRMe3wD8GBf3X1Iwem/e+tdigSXrUs0Txq4Ps9VY="
+  secret                 : "bP0V2gY/HO2rBZC912F3YW2iyx1HbS4vDAGcmRPYACWm3Hghu1052e0YnKe+yb7EQEqe0styP6xzJ/ubL17FIG/WGNyzHvRmWfap9iF9CLKxYgot2qZli4rxUoSOcMCTGyuDFfwNG7mhFsxIlvvaGW010LjkrlKoiF2YNR5j7EL6FRmvVMLNlplDkHI7Pb5LIc5Pzk4jiPiENjXrs7X1hp9ls24WYG8zZw0lhoZAslmB07QHS4zaEdPLhY/uuWiefOk576QRzjcnrdqaoQHdrV1an+S/jMVPSMKvh1tw7IISnPTZAsBH/VLYDfuHivIVTuIxCMlOn8rajAlLlhsO1A=="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
