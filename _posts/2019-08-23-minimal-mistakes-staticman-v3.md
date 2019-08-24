@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "How to Enable Staticman v3 on Minimal Mistakes"
-date: 2019-08-23T19:00-20:00
+date: 2019-08-23
 modified:
 description:
 categories:
