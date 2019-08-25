@@ -94,7 +94,7 @@ with pysftp.Connection(sHostName, username=sUserName, password=sPassWord, cnopts
 ```
 
 ### 檔案上傳
-```
+```python
 import pysftp
 
 sHostName = 'localhost'
