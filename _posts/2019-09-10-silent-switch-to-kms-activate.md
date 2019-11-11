@@ -67,13 +67,13 @@ If "%KMS_Key%" == "" (
 )
 
 :: Uninstall Product key
-cscript slmgr.vbs /upk > nul
+cscript %SystemRoot%\System32\slmgr.vbs /upk > nul
 
 :: Replace to KMS Key
-cscript slmgr.vbs /ipk "%KMS_Key%" >nul
+cscript %SystemRoot%\System32\slmgr.vbs /ipk "%KMS_Key%" >nul
 
 :: Activate Windows
-cscript slmgr.vbs /ato >nul
+cscript %SystemRoot%\System32\slmgr.vbs /ato >nul
 
 :DelSelf
 cls
