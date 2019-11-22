@@ -3,7 +3,7 @@ layout: single
 title: "【Day 1】 甚麼是Microsoft Deployment Toolkit (MDT)"
 date: 2019-11-21
 modified:
-description:
+description: "What is Microsoft Deployment Toolkit"
 categories:
     - "Tech Article"
 tags:
