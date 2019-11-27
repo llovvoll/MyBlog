@@ -10,7 +10,7 @@ tags:
     - Windows
     - KMS
 header:
-  image: https://i.imgur.com/RbYcXEP.png
+  image: /assets/images/2019/09/10/2019-09-10-000.png
 ---
 
 現在的Windows，生命週期大大的縮短了，像是現在的Windows 10 1809，家用版、專業版、工作站專業版在2020年5月12日就終止服務了，但在企業版及教育版則能到2021年5月11日，所以最近就開始進行從專業版改為企業版的作業

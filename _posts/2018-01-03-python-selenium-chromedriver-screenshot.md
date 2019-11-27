@@ -54,7 +54,7 @@ Browser.quit()
 ```
 
 這邊我們多導入了一個Package，並利用Selenium的內建函數去搜尋元素ID為Account及password的輸入欄位，以下是擷取ITHome登入頁面的Html code
-![None]({{ "https://i.imgur.com/aQakHug.png" | absolute_url }})
+![]({{ site.url }}/assets/images/2018/01/03/2018-01-03-001.png)
 
 ```html
 <div class="form-group has-feedback has-feedback-left">
@@ -73,7 +73,7 @@ Browser.quit()
 利用find_element_by_id查找出指定的元素，並用send_keys鍵入我們已建立的帳號密碼變數，最後並在password的欄位送出Enter鍵做為登入
 登入完畢則利用save_screenshot將畫面存取為test.png，這邊則無指定路徑，所以會將其儲存在此Python程式的相同目錄下，最後完成工作後關閉Browser
 
-![None]({{ "https://i.imgur.com/UU3sLn4.png" | absolute_url }})
+![]({{ site.url }}/assets/images/2018/01/03/2018-01-03-002.png)
 
 
 以上是簡略的介紹，如果有不明白的地方可以留言一起討論交流

@@ -20,7 +20,7 @@ Hey I came back to write the blog but I found out that my staticman has failed. 
 
 To use Staticman, you first need to invite staticmanlab as a collaborator to your repository (by going to your repository Settings page, navigate to the Collaborators tab, and add the username staticmanlab), and then accept the invitation by going to https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>. Lastly, fill in the staticman parameters in the Staticman section of _config.yml. You may also choose a different Staticman instance other than staticmanlab.
 
-![None]({{ "https://i.imgur.com/vlAJYzN.png" | absolute_url }})
+![]({{ site.url }}/assets/images/2019/08/23/2019-08-23-001.png)
 
 ## Add endpoint in _config.yml
 

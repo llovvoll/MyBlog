@@ -48,7 +48,7 @@ for root, dirs, files in walk(MyPath):
 再來若是判斷不存在的話就接著判斷是否有KeyWord名稱的資料夾，若沒有的話就創建一個KeyWord名稱的資料夾，接著就是使用shutil.move方法去搬移我們的檔案到資料夾中
 
 ## 運行結果圖
-![None]({{ "https://i.imgur.com/9LdWkgK.png" | absolute_url }})
+![]({{ site.url }}/assets/images/2018/08/18/2018-08-18-001.png)
 
 使用起來起來也是滿方便，關鍵字的輸入並沒有限制檔案名稱而已，想要輸入.png也是可以的，所以其實想要拿來自動分類圖片類型或是整理特定關鍵字的檔案都很方便，這種將程式融入於生活中其實挺不賴的！
 

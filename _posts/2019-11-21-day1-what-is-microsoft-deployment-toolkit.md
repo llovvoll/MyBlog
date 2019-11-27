@@ -10,7 +10,7 @@ tags:
     - Windows
     - MDT
 header:
-  image: https://i.imgur.com/vSdNKm9.jpg
+  image: /assets/images/2019/11/21/2019-11-21-000.jpg
 ---
 
 原本想以這個主題報名第11屆的IT鐵人賽，但想起來時已經截止了Orz....，但是沒關係，我決定在自己的部落格上自我挑戰，在哪裡挑戰都不是問題，主要是挑戰自己的意志力嘛XD，這個也是我第一次參加30天鐵人賽的活動，希望可以順利達成！
@@ -28,7 +28,7 @@ header:
 
 MDT是個很深奧的工具，你可以簡單的運用，也可以做到很深層的運用，就看何去使用，下一篇我們就開始安裝MDT，開始動手玩玩吧～
 
-![None]({{ "https://i.imgur.com/HWyEt2t.png" | absolute_url }})
+![]({{ site.url }}/assets/images/2019/11/21/2019-11-21-001.png)
 
 ## References
 [Microsoft Deployment Toolkit - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Deployment_Toolkit)

@@ -52,7 +52,7 @@ Srcimg.save('HelloWorld.png')
 ```
 
 ## 運行結果圖
-![None]({{ "https://i.imgur.com/fTpDRdK.png" | absolute_url }})
+![]({{ site.url }}/assets/images/2018/08/17/2018-08-17-001.png)
 
 我在每行程式碼都有加上註解，然後要將.py、src_img.png、myfont.ttf放在同個目錄，.png(底圖)跟.ttf(字體)就是依個人所需可替換更改，就簡單的幾行就能達到需求，如果再加上迴圈就可以做到大量加入文字浮水印，非常的方便！
 
