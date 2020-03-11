@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -43,23 +43,9 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : "master" # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : https://staticman3.herokuapp.com/v3/entry/github/ # URL of your own deployment with trailing slash, will fallback to the public instance
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                : "6LdzxmkUAAAAADSjJIGlM5JUiyPV3An1nNZvdrP6"
   secret                 : "bP0V2gY/HO2rBZC912F3YW2iyx1HbS4vDAGcmRPYACWm3Hghu1052e0YnKe+yb7EQEqe0styP6xzJ/ubL17FIG/WGNyzHvRmWfap9iF9CLKxYgot2qZli4rxUoSOcMCTGyuDFfwNG7mhFsxIlvvaGW010LjkrlKoiF2YNR5j7EL6FRmvVMLNlplDkHI7Pb5LIc5Pzk4jiPiENjXrs7X1hp9ls24WYG8zZw0lhoZAslmB07QHS4zaEdPLhY/uuWiefOk576QRzjcnrdqaoQHdrV1an+S/jMVPSMKvh1tw7IISnPTZAsBH/VLYDfuHivIVTuIxCMlOn8rajAlLlhsO1A=="
