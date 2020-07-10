@@ -14,7 +14,7 @@ tags:
 
 好久不見！最近在學習使用 [Element UI](https://element.eleme.io/) 的這個框架，發現其實滿方便的，但好像也有很多坑 !? 這邊筆記一下如何讓 Dialog 元件自適應....
 
-首先先在 <el-dialog> 標籤中綁定 width 到一個變數中
+首先先在 \<el-dialog> 標籤中綁定 width 到一個變數中
 
 ```html
 <template>
