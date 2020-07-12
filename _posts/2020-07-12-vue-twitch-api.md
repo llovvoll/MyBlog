@@ -16,6 +16,10 @@ header:
 
 所以就因爲突然想到，就來練習看看怎麼接 Twitch 的 API，並展示出熱門的遊戲及熱門直撥頻道
 
+<!-- Table of Contents -->
+
+{% include toc icon="heart" title="使用 Vue.js 串接 Twitch API 顯示熱門遊戲及直撥頻道" %}
+
 ## 1. OAuth Token is Missing
 
 當開心的開通了 Twitch Developer 拿到 token 後打開了 Postma 發出請求卻發現噴回了這個錯誤 "OAuth Token is Missing"，做了資料後發現原來是 Twitch 從 [2020/04/30](https://discuss.dev.twitch.tv/t/requiring-oauth-for-helix-twitch-api-endpoints/23916) 起，需要多一個 OAuth Token，所以這邊分享一下如何取得 OAuth Token
