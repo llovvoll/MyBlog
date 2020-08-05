@@ -5,7 +5,8 @@ date: 2020-07-10
 modified:
 description: "使用 Vue.js + Element UI 製作 Todo List 全紀錄"
 categories:
-    - "Tech Article"
+  - "Tech Article"
+  - "Front-End"
 tags:
     - Element
     - Vue

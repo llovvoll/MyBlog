@@ -6,7 +6,7 @@ modified:
 description: "Element UI Dialog 自適應"
 categories:
     - "Tech Article"
-    - "Notes"
+    - "Front-End"
 tags:
     - Element
     - Vue

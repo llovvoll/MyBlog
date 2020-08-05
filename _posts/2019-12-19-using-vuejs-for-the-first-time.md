@@ -8,8 +8,7 @@ categories:
     - "Tech Article"
     - "Front-End"
 tags:
-    - Vue.js
-    - Front-End
+    - Vue
 header:
   image: /assets/images/2019/12/19/2019-12-19-000.png
 ---

@@ -6,6 +6,7 @@ modified:
 description: "使用 Vue.js 串接 Twitch API 顯示熱門遊戲及直撥頻道"
 categories:
   - "Tech Article"
+  - "Front-End"
 tags:
   - Vue
 header:
