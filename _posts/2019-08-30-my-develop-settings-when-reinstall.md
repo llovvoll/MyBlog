@@ -24,6 +24,7 @@ Record my development environment
 brew install --cask visual-studio-code
 brew install --cask iterm2
 brew install --cask docker
+brew install --cask remote-desktop-manager-free
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 brew install --cask font-fira-code
