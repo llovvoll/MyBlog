@@ -13,6 +13,10 @@ tags:
 
 最近協助同事在 VMware ESXi 上設定一台新的 DB 主機，很久沒有架新主機了，過程有點生疏，這邊紀錄一下過程
 
+<!-- Table of Contents -->
+
+{% include toc icon="heart" title="" %}
+
 # Setting Virtual Machine
 
 首先進到 VMware ESXi 中的 Storage 中將 CentOS 的 ISO 檔上傳，待會要掛載到 VM 上進行安裝
@@ -64,7 +68,7 @@ $ vi ifcfg-ens192
 $ ifup ens192
 
 # Disable Network Interface IPv6
-$vi /etc/sysctl.conf
+$ vi /etc/sysctl.conf
   net.ipv6.conf.all.disable_ipv6 = 1
   net.ipv6.conf.default.disable_ipv6 = 1
 
@@ -99,7 +103,7 @@ $ mysql -u root -p
 	FLUSH PRIVILEGES;
 $ vi /etc/my.cnf.d/mariadb-server.cnf
 	bind-address = 0.0.0.0
-$systemctl restart mariadb
+$ systemctl restart mariadb
 ```
 
 # Setting FireWall
