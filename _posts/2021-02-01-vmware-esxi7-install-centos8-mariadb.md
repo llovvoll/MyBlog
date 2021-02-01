@@ -109,8 +109,8 @@ $ systemctl restart mariadb
 # Setting FireWall
 
 ```
-sudo firewall-cmd --permanent --add-port=3306/tcp
-sudo firewall-cmd --reload
+$ sudo firewall-cmd --permanent --add-port=3306/tcp
+$ sudo firewall-cmd --reload
 ```
 
 # Add root disk space
