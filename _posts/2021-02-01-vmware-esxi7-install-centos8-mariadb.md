@@ -119,7 +119,7 @@ $ sudo firewall-cmd --reload
 
 ```
 $ umount /home
-$ lvreduce -L 100G /dev/mapper/cs-home
+$ lvreduce -L 20G /dev/mapper/cs-home
 $ lvextend -l +100%FREE /dev/mapper/cs-root
 $ xfs_growfs /dev/mapper/cs-root
 $ mount /dev/mapper/cs-home /home/
