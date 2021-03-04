@@ -2,7 +2,7 @@
 layout: single
 title: "[Notes] My develop settings when reinstall"
 date: 2019-08-30
-modified: 2020-12-26
+modified: 2021-03-05
 description:
 categories:
   - "Notes"
@@ -18,18 +18,18 @@ Record my development environment
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Install develop tools >
+## Install develop tools
 
 ```sh
+brew install --cask google-chrome
 brew install --cask visual-studio-code
 brew install --cask iterm2
 brew install --cask docker
-brew install --cask remote-desktop-manager-free
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 brew install --cask font-fira-code
 brew install zsh
-brew install python
+brew install pyenv
 brew install node
 ```
 
@@ -41,7 +41,7 @@ chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## iTerm settings
+## Setting zsh theme & environment
 
 ```sh
 # Preferences > Profiles > Terminal > Report Terminal Type> xterm-256color
@@ -50,7 +50,24 @@ git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 vi ~/.zshrc
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+# Turn off Insecure completion-dependent directories detected
+ZSH_DISABLE_COMPFIX="true"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
+
 # Left
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable vcs vi_mode)
 # Right
